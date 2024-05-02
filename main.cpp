@@ -156,9 +156,11 @@ int main(int argc, char* argv[]) {
     }
     else if (answer == "no") {
         std::cout << "Connection aborted by user.\n";
+        return 1;
     }
     else {
         std::cout << "Invalid input by user, connection aborted.\n";
+        return 1;
     }
 
     // BEGIN COMMAND SIMULATION
