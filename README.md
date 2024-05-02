@@ -1,6 +1,6 @@
 # dfor740-final
 ## ssh
-A fake ssh emulator which when used, appears as if a user is connected to a real SSH session with a fake filesystem. Logs the username, IP, port, and password that the user uses to connect, as well as the commands they use.
+A fake SSH emulator which when used, appears as if a user is connected to a real SSH session with a fake filesystem. Logs the username, IP, port, and password that the user uses to connect, as well as the commands they use.
 
 ### Usage
 To use ssh, you will need to compile the Visual Studio Project Solution file. 
@@ -8,10 +8,10 @@ To use ssh, you will need to compile the Visual Studio Project Solution file.
 2. From the ```Build``` tab at the top, select the first option ```Build Solution```.
 3. From the ```Git``` tab at the top, select ```Open in File Explorer```, then navigate through to ```x64/Debug/``` where ```ssh.exe``` and the resulting logs in ```ssh_log.txt``` are located.
 4. In the address bar of File Explorer, highlight all then type ```cmd.exe``` to open a command prompt in the folder.
-5. Follow syntax below to use, available commands to use in this SSH emulator are below under **Available Commands**
+5. Follow the syntax below to use, available commands to use while "logged in" are below under **Available Commands**.
 
 ### Syntax
-Running the inital command: ```ssh [-p <port number> | -l <login-name>]```
+```ssh [-p <port number> | -l <login-name>]```
 
 ### Switches
 - ```-p```: Specify a port number to connect to, defaults to 22
