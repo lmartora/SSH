@@ -18,11 +18,11 @@ Running the inital command: ```ssh [-p <port number> | -l <login-name>]```
 - ```-l```: Specify a login name to log into on the target, defaults to lorenzo
 
 ### Available commands (unless specified, takes no parameters<>)
--```whoami```: reply with login-name user specified at command execution
--```ver```: reply with a fake version number of the Windows OS
--```hostname```: reply with a fake hostname of the computer
--```dir```: reply with a listing of the current directory 
--```cls```: clear the screen
--```cd <directory>``` (can only read one directory at a time): change to a specified directory (case sensitive)
--```echo <phrase>``` (only takes one word): reply with a phrase the user inputs
--```exit```: quit the program
+- ```whoami```: reply with login-name user specified at command execution
+- ```ver```: reply with a fake version number of the Windows OS
+- ```hostname```: reply with a fake hostname of the computer
+- ```dir```: reply with a listing of the current directory 
+- ```cls```: clear the screen
+- ```cd <directory>``` (can only read one directory at a time): change to a specified directory (case sensitive)
+- ```echo <phrase>``` (only takes one word): reply with a phrase the user inputs
+- ```exit```: quit the program
